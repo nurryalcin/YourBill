@@ -17,6 +17,8 @@ namespace Entities.Concrete
         public DateTime? Date { get; set; }
         public string ImagePath { get; set; }
         public Company Company { get; set; }
+        public City City { get; set; }
+        public District District { get; set; }
 
     }
 }

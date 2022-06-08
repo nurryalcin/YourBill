@@ -17,7 +17,7 @@ namespace DataAccess.Abstract
         // void Delete(Product product);
         // public List<Product> GetAllByCategory(int CategoryId);//categoriye göre filtreleme ypar.
 
-        List<ProductDetailDto> GetProductDetails();
+       // List<ProductDetailDto> GetProductDetails();
 
     }
 }

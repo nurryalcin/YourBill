@@ -50,6 +50,7 @@ namespace Business.Concrete
             {
                 return new ErrorDataResult<List<Adisyon>>(Messages.MaintenanceTime);
             }
+            var data = _adisyonDal.GetAll().Where(x => x.CompanyId== 1);
 
             return new SuccessDataResult<List<Adisyon>>(_adisyonDal.GetAll(), true, Messages.ProductsListed);
         }

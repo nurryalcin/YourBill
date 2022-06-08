@@ -19,6 +19,7 @@ namespace DataAccess.Concrete.EntityFramework
         public DbSet<Adisyon> Adisyons { get; set; }
         public DbSet<Company> Companies { get; set; }
         public DbSet <City>Cities { get; set; }
+        public DbSet<District> Districties { get; set; }
         public DbSet<BillImage> BillImages { get; set; }
       
 
